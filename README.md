@@ -4,10 +4,10 @@ Random R scripts to experiment with Strava data.
 
 ## Notes
 
-- The directory [/data] is a symlink to the unzipped data export from Strava
+- The directory [data/] is a symlink to the unzipped data export from Strava
     ```bash
-        cd data
-        cp -r --symbolic-link path-to-unzipped-data/ .
+    cd data
+    cp -r --symbolic-link path-to-unzipped-data/ .
     ```
 
 ## Thanks
